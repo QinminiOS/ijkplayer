@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90CF4C51EE641E700380F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF4C41EE641E700380F37 /* main.m */; };
+		B90CF4C81EE641E700380F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF4C71EE641E700380F37 /* AppDelegate.m */; };
+		B90CF4CB1EE641E700380F37 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B90CF4CA1EE641E700380F37 /* ViewController.mm */; };
+		B90CF4CE1EE641E700380F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90CF4CC1EE641E700380F37 /* Main.storyboard */; };
+		B90CF4D01EE641E700380F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90CF4CF1EE641E700380F37 /* Assets.xcassets */; };
+		B90CF4D31EE641E700380F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90CF4D11EE641E700380F37 /* LaunchScreen.storyboard */; };
+		B90CF4DE1EE641E700380F37 /* ijkplayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF4DD1EE641E700380F37 /* ijkplayerDemoTests.m */; };
+		B90CF4E91EE641E700380F37 /* ijkplayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF4E81EE641E700380F37 /* ijkplayerDemoUITests.m */; };
+		B90CF5941EE643A200380F37 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CF5931EE643A200380F37 /* libz.tbd */; };
+		B90CF59A1EE6444300380F37 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CF58A1EE6421800380F37 /* IJKMediaFramework.framework */; };
+		B92615A01EF12EB200698E63 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B926159F1EF12EB200698E63 /* 1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90CF4DA1EE641E700380F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90CF4B81EE641E700380F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90CF4BF1EE641E700380F37;
+			remoteInfo = ijkplayerDemo;
+		};
+		B90CF4E51EE641E700380F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90CF4B81EE641E700380F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90CF4BF1EE641E700380F37;
+			remoteInfo = ijkplayerDemo;
+		};
+		B90CF5891EE6421800380F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		B90CF58B1EE6421800380F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5450B0431E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
+		B90CF58D1EE6421800380F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B90CF4C01EE641E700380F37 /* ijkplayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ijkplayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90CF4C41EE641E700380F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90CF4C61EE641E700380F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B90CF4C71EE641E700380F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B90CF4C91EE641E700380F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B90CF4CA1EE641E700380F37 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B90CF4CD1EE641E700380F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90CF4CF1EE641E700380F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90CF4D21EE641E700380F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90CF4D41EE641E700380F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90CF4D91EE641E700380F37 /* ijkplayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ijkplayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90CF4DD1EE641E700380F37 /* ijkplayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ijkplayerDemoTests.m; sourceTree = "<group>"; };
+		B90CF4DF1EE641E700380F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90CF4E41EE641E700380F37 /* ijkplayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ijkplayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90CF4E81EE641E700380F37 /* ijkplayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ijkplayerDemoUITests.m; sourceTree = "<group>"; };
+		B90CF4EA1EE641E700380F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = ../IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
+		B90CF5931EE643A200380F37 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B926159F1EF12EB200698E63 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90CF4BD1EE641E700380F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF59A1EE6444300380F37 /* IJKMediaFramework.framework in Frameworks */,
+				B90CF5941EE643A200380F37 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4D61EE641E700380F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4E11EE641E700380F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90CF4B71EE641E700380F37 = {
+			isa = PBXGroup;
+			children = (
+				B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */,
+				B90CF4C21EE641E700380F37 /* ijkplayerDemo */,
+				B90CF4DC1EE641E700380F37 /* ijkplayerDemoTests */,
+				B90CF4E71EE641E700380F37 /* ijkplayerDemoUITests */,
+				B90CF4C11EE641E700380F37 /* Products */,
+				B90CF5921EE643A200380F37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B90CF4C11EE641E700380F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF4C01EE641E700380F37 /* ijkplayerDemo.app */,
+				B90CF4D91EE641E700380F37 /* ijkplayerDemoTests.xctest */,
+				B90CF4E41EE641E700380F37 /* ijkplayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90CF4C21EE641E700380F37 /* ijkplayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF4C61EE641E700380F37 /* AppDelegate.h */,
+				B90CF4C71EE641E700380F37 /* AppDelegate.m */,
+				B90CF4C91EE641E700380F37 /* ViewController.h */,
+				B90CF4CA1EE641E700380F37 /* ViewController.mm */,
+				B90CF4CC1EE641E700380F37 /* Main.storyboard */,
+				B90CF4CF1EE641E700380F37 /* Assets.xcassets */,
+				B90CF4D11EE641E700380F37 /* LaunchScreen.storyboard */,
+				B90CF4D41EE641E700380F37 /* Info.plist */,
+				B926159F1EF12EB200698E63 /* 1.mp4 */,
+				B90CF4C31EE641E700380F37 /* Supporting Files */,
+			);
+			path = ijkplayerDemo;
+			sourceTree = "<group>";
+		};
+		B90CF4C31EE641E700380F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF4C41EE641E700380F37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B90CF4DC1EE641E700380F37 /* ijkplayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF4DD1EE641E700380F37 /* ijkplayerDemoTests.m */,
+				B90CF4DF1EE641E700380F37 /* Info.plist */,
+			);
+			path = ijkplayerDemoTests;
+			sourceTree = "<group>";
+		};
+		B90CF4E71EE641E700380F37 /* ijkplayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF4E81EE641E700380F37 /* ijkplayerDemoUITests.m */,
+				B90CF4EA1EE641E700380F37 /* Info.plist */,
+			);
+			path = ijkplayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		B90CF5841EE6421800380F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF58A1EE6421800380F37 /* IJKMediaFramework.framework */,
+				B90CF58C1EE6421800380F37 /* IJKMediaFrameworkWithSSL.framework */,
+				B90CF58E1EE6421800380F37 /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90CF5921EE643A200380F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF5931EE643A200380F37 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90CF4BF1EE641E700380F37 /* ijkplayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90CF4ED1EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemo" */;
+			buildPhases = (
+				B90CF4BC1EE641E700380F37 /* Sources */,
+				B90CF4BD1EE641E700380F37 /* Frameworks */,
+				B90CF4BE1EE641E700380F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ijkplayerDemo;
+			productName = ijkplayerDemo;
+			productReference = B90CF4C01EE641E700380F37 /* ijkplayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B90CF4D81EE641E700380F37 /* ijkplayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90CF4F01EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemoTests" */;
+			buildPhases = (
+				B90CF4D51EE641E700380F37 /* Sources */,
+				B90CF4D61EE641E700380F37 /* Frameworks */,
+				B90CF4D71EE641E700380F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90CF4DB1EE641E700380F37 /* PBXTargetDependency */,
+			);
+			name = ijkplayerDemoTests;
+			productName = ijkplayerDemoTests;
+			productReference = B90CF4D91EE641E700380F37 /* ijkplayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B90CF4E31EE641E700380F37 /* ijkplayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90CF4F31EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemoUITests" */;
+			buildPhases = (
+				B90CF4E01EE641E700380F37 /* Sources */,
+				B90CF4E11EE641E700380F37 /* Frameworks */,
+				B90CF4E21EE641E700380F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90CF4E61EE641E700380F37 /* PBXTargetDependency */,
+			);
+			name = ijkplayerDemoUITests;
+			productName = ijkplayerDemoUITests;
+			productReference = B90CF4E41EE641E700380F37 /* ijkplayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90CF4B81EE641E700380F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qinmin;
+				TargetAttributes = {
+					B90CF4BF1EE641E700380F37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NFTVSJ4FK7;
+						ProvisioningStyle = Automatic;
+					};
+					B90CF4D81EE641E700380F37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B90CF4BF1EE641E700380F37;
+					};
+					B90CF4E31EE641E700380F37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SP96U9X4RF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B90CF4BF1EE641E700380F37;
+					};
+				};
+			};
+			buildConfigurationList = B90CF4BB1EE641E700380F37 /* Build configuration list for PBXProject "ijkplayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90CF4B71EE641E700380F37;
+			productRefGroup = B90CF4C11EE641E700380F37 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B90CF5841EE6421800380F37 /* Products */;
+					ProjectRef = B90CF5781EE6421200380F37 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B90CF4BF1EE641E700380F37 /* ijkplayerDemo */,
+				B90CF4D81EE641E700380F37 /* ijkplayerDemoTests */,
+				B90CF4E31EE641E700380F37 /* ijkplayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B90CF58A1EE6421800380F37 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = B90CF5891EE6421800380F37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90CF58C1EE6421800380F37 /* IJKMediaFrameworkWithSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFrameworkWithSSL.framework;
+			remoteRef = B90CF58B1EE6421800380F37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90CF58E1EE6421800380F37 /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = B90CF58D1EE6421800380F37 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90CF4BE1EE641E700380F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF4D31EE641E700380F37 /* LaunchScreen.storyboard in Resources */,
+				B92615A01EF12EB200698E63 /* 1.mp4 in Resources */,
+				B90CF4D01EE641E700380F37 /* Assets.xcassets in Resources */,
+				B90CF4CE1EE641E700380F37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4D71EE641E700380F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4E21EE641E700380F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90CF4BC1EE641E700380F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF4CB1EE641E700380F37 /* ViewController.mm in Sources */,
+				B90CF4C81EE641E700380F37 /* AppDelegate.m in Sources */,
+				B90CF4C51EE641E700380F37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4D51EE641E700380F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF4DE1EE641E700380F37 /* ijkplayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90CF4E01EE641E700380F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF4E91EE641E700380F37 /* ijkplayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90CF4DB1EE641E700380F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90CF4BF1EE641E700380F37 /* ijkplayerDemo */;
+			targetProxy = B90CF4DA1EE641E700380F37 /* PBXContainerItemProxy */;
+		};
+		B90CF4E61EE641E700380F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B90CF4BF1EE641E700380F37 /* ijkplayerDemo */;
+			targetProxy = B90CF4E51EE641E700380F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B90CF4CC1EE641E700380F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90CF4CD1EE641E700380F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90CF4D11EE641E700380F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90CF4D21EE641E700380F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90CF4EB1EE641E700380F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B90CF4EC1EE641E700380F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90CF4EE1EE641E700380F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFTVSJ4FK7;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework";
+				INFOPLIST_FILE = ijkplayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B90CF4EF1EE641E700380F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFTVSJ4FK7;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../IJKMediaPlayer/IJKMediaFramework";
+				INFOPLIST_FILE = ijkplayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B90CF4F11EE641E700380F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = ijkplayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ijkplayerDemo.app/ijkplayerDemo";
+			};
+			name = Debug;
+		};
+		B90CF4F21EE641E700380F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = ijkplayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ijkplayerDemo.app/ijkplayerDemo";
+			};
+			name = Release;
+		};
+		B90CF4F41EE641E700380F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = ijkplayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ijkplayerDemo;
+			};
+			name = Debug;
+		};
+		B90CF4F51EE641E700380F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SP96U9X4RF;
+				INFOPLIST_FILE = ijkplayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinmin.ijkplayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ijkplayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90CF4BB1EE641E700380F37 /* Build configuration list for PBXProject "ijkplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90CF4EB1EE641E700380F37 /* Debug */,
+				B90CF4EC1EE641E700380F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90CF4ED1EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90CF4EE1EE641E700380F37 /* Debug */,
+				B90CF4EF1EE641E700380F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90CF4F01EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90CF4F11EE641E700380F37 /* Debug */,
+				B90CF4F21EE641E700380F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90CF4F31EE641E700380F37 /* Build configuration list for PBXNativeTarget "ijkplayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90CF4F41EE641E700380F37 /* Debug */,
+				B90CF4F51EE641E700380F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90CF4B81EE641E700380F37 /* Project object */;
+}
